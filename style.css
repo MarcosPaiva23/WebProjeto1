@@ -88,3 +88,34 @@ color: white;
 font-size:400%;
 text-align: center;
 }
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#BotaoSubmissao {
+    border-radius: 1.5rem;
+    transition: 0.5s ease;
+}
+
+#BotaoSubmissao:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
