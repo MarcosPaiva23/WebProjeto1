@@ -10,53 +10,64 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 
 
 </head>
 
 <body>
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <div class="Logo" id="">
-            <img src="fotos/logo.png"></div>
+                <img src="fotos/logo.png">
+            </div>
             <div class="navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./eventos.html">Eventos</a>
+                        <a class="nav-link" href="./formulario.html">Formulário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Fotos</a>
+                        <a class="nav-link" href="#" onclick="fotos()">Fotos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Loja oficial</a>
+                        <a class="nav-link" href="#" onclick="loja()">Loja oficial</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!--Foto do novo álbum-->
     <div class="container-fluid" id="album">
         <div class="album">
             <h1>Novo álbum 'Code & Chaos' já disponível!</h1>
-            <img src="./fotos/Capa do álbum.jpg" id=imagem class="img-thumbnail ms-" alt="Capa do álbum">
-            </div>
+            <a href="https://open.spotify.com/playlist/4plCeDzeVnk15wp1tJfTFA" target="_blank"><img src="./fotos/Capa do álbum.jpg" id=imagem class="img-thumbnail ms-" alt="Capa do álbum"></a>
         </div>
+    </div>
 
-        <div class="OuveMusicas"><h1>Ouve as nossas músicas!</h1></div>
-        <div class="SpotifyApple">
-            <a href="https://open.spotify.com/playlist/4plCeDzeVnk15wp1tJfTFA" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-            <a href="https://music.apple.com/us/playlist/skateboarding/pl.c0e4d6d978b44ad8bce31e03951bdd02" target="_blank"><i class="fa-brands fa-apple"></i></a>
-        </div>
-        <div class="Segue-nos"><h1>Segue-nos nas redes sociais!</h1></div>
-<div class="SocialMedia">
-            <a href="https://www.instagram.com/tonyhawk/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="https://www.facebook.com/Skate/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.youtube.com/watch?v=ASTbuygnQX0" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    <!--Links para plataformas de música e redes sociais-->
+    <div class="OuveMusicas">
+        <h1>Ouve as nossas músicas!</h1>
+    </div>
+    <div class="SpotifyApple">
+        <a href="https://open.spotify.com/playlist/4plCeDzeVnk15wp1tJfTFA" target="_blank"><i
+                class="fa-brands fa-spotify"></i></a>
+        <a href="https://music.apple.com/us/playlist/skateboarding/pl.c0e4d6d978b44ad8bce31e03951bdd02"
+            target="_blank"><i class="fa-brands fa-apple"></i></a>
+    </div>
+    <div class="Segue-nos">
+        <h1>Segue-nos nas redes sociais!</h1>
+    </div>
+    <div class="SocialMedia">
+        <a href="https://www.instagram.com/tonyhawk/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.facebook.com/Skate/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/watch?v=ASTbuygnQX0" target="_blank"><i class="fa-brands fa-youtube"></i></a>
 
-        </div>
+    </div>
     <footer>© Rewritten Syntax 2024. All rights reserved. Created by Marcos Paiva.</footer>
 </body>
 
